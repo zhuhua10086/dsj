@@ -94,7 +94,7 @@
             "https" : false
         },
         "router" : {
-            "base" : "/zhuhua/"
+            "base" : "/dsj/"
         },
         "sdkConfigs" : {
             "maps" : {

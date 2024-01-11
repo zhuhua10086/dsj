@@ -7,6 +7,9 @@ const whiteList = [
 	'/pages/index/register',
 	'/pages/index/wiki',
 	'/pages/index/crop',
+	'/pages/index/mqtt',
+	'/pages/index/zj',
+	'/pages/index/add',
 	
 	
 ]

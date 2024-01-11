@@ -51,7 +51,34 @@
                 "enablePullDownRefresh": false
             }
             
-        }
+        },
+		{
+		    "path" : "pages/index/mqtt",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/zj",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/add",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -84,6 +111,17 @@
 			"iconPath": "static/tabbar/my.png",
 			"selectedIconPath": "static/tabbar/my-active.png",
 			"text": "用户"
+		}, {
+			"pagePath": "pages/index/mqtt",
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "static/tabbar/my-active.png",
+			"text": "mqtt"
+		},
+		{
+			"pagePath": "pages/index/zj",
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "static/tabbar/my-active.png",
+			"text": "zj"
 		}]
 	}
 }

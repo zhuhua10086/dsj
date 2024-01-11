@@ -22,6 +22,7 @@
 					<uni-nav-bar shadow right-icon="right" title="开启阴影" />
 					<uni-nav-bar shadow right-icon="right" title="开启阴影" />
 					<uni-nav-bar shadow right-icon="right" title="开启阴影" />
+					<button type="primary" @click="navigateToLogin">登录</button>
 				</view>
 			</view>
 
@@ -46,6 +47,12 @@
 			})
 		},
 		methods: {
+			navigateToLogin() {
+			  uni.navigateTo({
+			    url: '/pages/index/login'
+			  });
+			},
+
 			btnScanCode(){
 				uni.scanCode({
 					scanType:['qrCode','barCode'],

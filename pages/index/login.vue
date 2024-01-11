@@ -58,6 +58,9 @@
 						const userinfo=res.data.userinfo;
 						userStore.setToken(userinfo.token)	
 						userStore.fillUser(userinfo)
+						uni.switchTab({
+						    url: '/pages/my/my' 
+						});
 					}
 					
 					
